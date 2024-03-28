@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* global.css */
+:root {
+  /* Define color variables */
+  --color-primary: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 20%);
+  --color-dark-grey: hsl(0, 0%, 12%);
+  --color-off-black: hsl(0, 0%, 8%);
+
+  /* Define typography variables */
+  --font-family: 'Inter', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+  --font-size-body: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Apply body styles */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  color: var(--color-grey); /* Default text color */
+  background-color: var(--color-white); /* Default background */
+}
+
+/* Other global styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark-grey);
+}
